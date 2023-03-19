@@ -1,0 +1,386 @@
+html{
+    height: 100%;
+}
+
+
+body{
+    overflow-x: hidden;
+    background-image: linear-gradient(to bottom right, #369eab, #50ddf0c6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 3%
+    ;
+}
+
+
+#heading{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: #0b6983;
+    font-weight: 600;
+}
+
+.row{
+    margin: 0px !important;
+}
+
+.container{
+    background-color: white;
+    /* height: 850px; */
+    height: 90%;
+    width: 95%;
+    border-radius: 15px;
+    
+}
+
+/* ------------------------------------------------UPLOAD---------------------------------------------------- */
+
+
+.containerInput {
+    height: 95%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #fcfcfc;
+    margin-top: 2%;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    width: 600px;
+    height: 338px;
+    background-color: #ffffff;
+    padding: 10px 30px 40px;
+  }
+  
+  .card h3 {
+    font-size: 22px;
+    font-weight: 600;
+    
+  }
+  
+  .drop_box {
+    margin: 10px 0;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px dotted #a3a3a3;
+    border-radius: 5px;
+  }
+  
+  .drop_box h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2e2e2e;
+  }
+  
+  .drop_box p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #a3a3a3;
+  }
+  
+  .btn {
+    text-decoration: none;
+    background-color: #005af0;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .btn:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #005af0;
+    padding: 10px 20px;
+    border: none;
+    outline: 1px solid #010101;
+  }
+  .form input {
+    margin: 10px 0;
+    width: 100%;
+    background-color: #e2e2e2;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+  }
+
+
+  #upload_link{
+    text-decoration:none;
+}
+#upload{
+    display:none
+}
+
+
+
+
+/* ------------------------------------------------UPLOAD---------------------------------------------------- */
+
+
+
+.upload-container{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.table-heading{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    align-items: center;
+    font-weight: 800;
+}
+
+.topbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.form-inline{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.form-control{
+    margin: 3px;
+}
+
+.table-container{
+    height: 100%;
+    width: 100%;
+}
+
+.subtext{
+    /* background-color: red; */
+    height: 100%;
+    /* display: flex;
+    align-items: center; */
+    margin-top: 17rem;
+
+}
+
+.input-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+
+
+#select-file{
+    font-size: x-large;
+}
+
+#myfile{
+    font-size: larger;
+}
+
+
+.upload-container{
+    text-align: center;
+}
+
+
+.main-text{
+    /* display: flex;
+    flex-direction: row; */
+    display: inline;
+    text-align: center !important;
+}
+
+.main-text > i{
+    font-size: xx-large;
+}
+
+.input{
+    background-color: red !important;
+}
+
+
+/* -----------------------------------------------------------------------------------------------
+JQUERY EDIT
+----------------------------------------------------------------------------------------------- */
+
+.dataTables_filter input{
+    border: solid 1px #0b6983 !important;
+    border-radius: 5px !important;
+}
+
+
+/* .dataTables_filter input{
+    border: solid 1px #a1a1a1 !important;
+    border-radius: 5px !important;
+} */
+
+
+th{
+    color: #0b6983 !important
+}
+
+tr{
+    border: 1px solid rgb(220 220 220) !important;
+}
+
+label, .dataTables_info, select{
+    color: #0b6983!important;
+}
+
+/* label, .dataTables_info, select{
+    color: #a1a1a1!important;
+} */
+
+.paginate_button{
+    /* border: 1px solid #369eab !important; */
+    border-radius: 8px !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current .disabled{
+    color: white !important;
+}
+
+.current{
+    background: #0b6983 !important;
+    color: white !important;
+}
+
+.current:hover{
+    color: white;
+}
+.paginate_button:hover{
+    background: #0b6983 !important;
+    border: 0px !important;
+    color: white !important;
+}
+
+/* .paginate_button:hover{
+    background: #a1a1a1 !important;
+    border: 0px !important;
+    color: white !important;
+} */
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    color: white !important;
+}
+
+.dataTables_wrapper .dataTables_paginate , .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active{
+    color: white !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled{
+    color: #0b6983 !important
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    color: #0b6983 !important; 
+}
+
+
+/* 
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled{
+    color: #a1a1a1 !important
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    color: #a1a1a1 !important; 
+} */
+
+/* -----------------------------------------------------------------------------------------------
+JQUERY EDIT
+----------------------------------------------------------------------------------------------- */
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+     
+    html{
+        height: 100%;
+        width: 100%;
+    }
+    
+
+    .card{
+        height: 400px;
+    }
+
+    .upload-container{
+        margin-top: 50px;
+    }
+
+    input{
+        padding-left: 100px
+    }
+
+    .dataTables_filter > label > input{
+        padding-left: 0% !important;
+    }
+
+    .table-heading{
+        height: 75px;
+    }
+
+    .dataTables_wrapper .dataTables_filter input {
+        margin-left: -10px !important;
+        width: 88%;
+
+    }
+
+    .container{
+        height: 90%;
+        width: 98%;
+        
+    }
+
+    .table{
+        overflow-x: auto; 
+    }
+
+    :root{
+        height: 150%;
+    }
+
+
+
+
+
+
+
+
+
+  }
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+

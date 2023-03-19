@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "csv-string": "^4.1.1",
+    "csvtojson": "^2.0.10",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-fileupload": "^1.4.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20"
+  },
+  "name": "csv-reader",
+  "version": "1.0.0",
+  "description": "This web app extracts data from a csv file and displays it in the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishnubv944/csv-reader.git"
+  },
+  "author": "Vishnu B V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishnubv944/csv-reader/issues"
+  },
+  "homepage": "https://github.com/vishnubv944/csv-reader#readme"
+}
